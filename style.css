@@ -1,0 +1,119 @@
+.container{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+.quickaddForm{
+	display: none;
+}
+h1{
+	text-align: center;
+}
+.entry{
+	width: 100%;
+	height: auto;
+	color:black;
+	background-color: lightgray; 
+	border-radius: 5px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+    overflow: auto;
+}
+.name{
+float: left;
+margin-right: 20px;
+}
+.email{
+	float: left;
+	margin-right: 20px;
+}
+.phone{
+float: left;
+margin-right: 20px;
+}
+.address{
+	float: left;
+	margin-right: 20px;
+}
+.city{
+	float: left;
+	margin-right: 280px;
+}
+.del{
+	float: right;
+	margin-right: 5px;
+}
+.delbutton{
+	background: #FF0000;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	color:white;
+	font-weight: 900;
+	border:2px solid #FF0000;
+	margin-top: 10px;
+}
+.del button:hover{
+	cursor: pointer;
+	opacity: 0.80;
+}
+#QuickAdd{
+	background: #00cc33;
+	border:2px solid #00cc33;
+	border-radius: 4px;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	font-weight: 900;
+}
+#QuickAdd:hover{
+	cursor: pointer;
+	opacity: 0.80;
+}
+#Add{
+	background: #33ccff;
+	border:2px solid #33ccff;
+	border-radius: 4px;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	font-weight: 900;
+}
+#Add:hover{
+	cursor: pointer;
+	opacity: 0.80;
+}
+#Cancel{
+	background: #FF0000;
+	border:2px solid #FF0000;
+	border-radius: 4px;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	font-weight: 900;
+	
+}
+#Cancel:hover{
+	cursor: pointer;
+	opacity: 0.80;
+}
+
+
+textarea{
+	width: 100%;
+	border: 2px solid #555;
+	 border-radius: 4px;
+}
+hr{
+	color:black;
+	
+}
+
+input[type=text]{
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	border: 2px solid #555;
+	 border-radius: 4px;
+}
+input[type=text]:focus{
+	 border: 2px solid #555;
+}

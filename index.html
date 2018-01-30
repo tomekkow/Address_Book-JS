@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Address Book</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+	<script src="main.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>Address Book</h1>							
+		</div>
+		<hr>
+		<div class="quickadd"><button id="QuickAdd"">Add</button></div>
+		<hr><br>
+		<div class="quickaddForm">
+			<label for="fullname">Name:&emsp;</label><input type="text" id="fullname" class="formFields" ><br>
+			<label for="phone">Phone:&emsp;</label><input type="text" id="phone" class="formFields"><br>
+			<label for="address">Address:</label><br><textarea name="address" id="address" cols="20" rows="10" class="formFields"></textarea><br>
+			<label for="city">City:&emsp;</label><input type="text" id="city" class="formFields"><br>
+			<label for="email">Email:&emsp;</label><input type="text" id="email" class="formFields"><br><br>
+			<button id="Add">Add now</button>&emsp;<button id="Cancel">Cancel</button>
+		</div><br><br>
+		<div class="addbook">
+		</div>
+	</div>
+</body>
+</html>
